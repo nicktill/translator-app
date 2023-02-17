@@ -1,57 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <title>Language Translator | CodingNepal</title>
+    <link rel="stylesheet" href="styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <!-- Font Awesome CDN Link for Icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <title>Translator App</title>
   </head>
+
   <body>
     <div class="container">
       <div class="wrapper">
         <div class="text-input">
           <textarea
-            name=""
-            class="from-text"
             spellcheck="false"
-            placeholder="Enter text..."
+            class="from-text"
+            placeholder="Enter text"
           ></textarea>
           <textarea
-            name=""
-            class="to-text"
             spellcheck="false"
+            readonly
+            disabled
+            class="to-text"
             placeholder="Translation"
           ></textarea>
         </div>
-        <ul class="conrtols">
-          <li class="row-from">
+        <ul class="controls">
+          <li class="row from">
             <div class="icons">
               <i id="from" class="fas fa-volume-up"></i>
               <i id="from" class="fas fa-copy"></i>
             </div>
-            <select name="" id=""></select>
+            <select></select>
           </li>
-          <li class="exchange">
-            <i class="fas fa-exchange-alt"></i>
-          </li>
-          <li class="row-to">
+          <li class="exchange"><i class="fas fa-exchange-alt"></i></li>
+          <li class="row to">
+            <select></select>
             <div class="icons">
               <i id="to" class="fas fa-volume-up"></i>
               <i id="to" class="fas fa-copy"></i>
             </div>
-            <select name="" id=""></select>
           </li>
         </ul>
       </div>
       <button>Translate Text</button>
     </div>
-    <script src="script.js"></script>
-    <script src="countries.js"></script>
+
+    <script src="js/countries.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
