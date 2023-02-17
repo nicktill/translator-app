@@ -18,4 +18,25 @@ body {
 }
 
 .container {
+  max-width: 690px;
+  background: #fff;
+  width: 100%;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.wrapper .text-input {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+.text-input .to-text {
+  border-radius: 0px;
 }
