@@ -5,11 +5,9 @@ This is a web-based translator app built using vanilla JavaScript, HTML, and CSS
 # Fully Responsive, 50+ Languages Supported!
 <img width="1031" alt="Translator app screenshot" src="https://user-images.githubusercontent.com/57879193/219876127-471edc86-e719-4830-8d77-8341c158e54b.png">
 <div align="center">
-  <img width="404" height="1250" alt="Translator app screenshot - source and target languages" src="https://user-images.githubusercontent.com/57879193/219876277-c03c53fe-87ed-4425-b567-ce44afe8bed2.png">
-  <img width="404"  height="1250" alt="Translator app screenshot - translated text" src="https://user-images.githubusercontent.com/57879193/219876245-9e23c42e-307f-498e-baca-888b531ad0ee.png">
+  <img width="404" alt="Translator app screenshot - source and target languages" src="https://user-images.githubusercontent.com/57879193/219876277-c03c53fe-87ed-4425-b567-ce44afe8bed2.png">
+  <img width="404" alt="Translator app screenshot - translated text" src="https://user-images.githubusercontent.com/57879193/219876245-9e23c42e-307f-498e-baca-888b531ad0ee.png">
 </div>
-
-
 
 ## Usage
 
@@ -22,7 +20,7 @@ This is a web-based translator app built using vanilla JavaScript, HTML, and CSS
 
 ## Supported Languages
 
-The translator app currently supports translation between the following languages:
+The translator app currently supports translation between the following languages + many more: 
 
 - English
 - Spanish
@@ -31,8 +29,6 @@ The translator app currently supports translation between the following language
 - Italian
 - Portuguese
 - Russian
-
-
 - Chinese (Simplified)
 - Japanese
 - Korean
@@ -40,4 +36,4 @@ The translator app currently supports translation between the following language
 
 ## Technologies Used
 
-- JavaScript, HTML, CSS, MyMemory API
+- JavaScript (no frameworks used for practice), HTML, CSS, MyMemory API
