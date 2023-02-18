@@ -4,8 +4,7 @@ This is a web-based translator app built using vanilla JavaScript, HTML, and CSS
 
 <img width="1031" alt="Screen Shot 2023-02-18 at 11 09 26 AM" src="https://user-images.githubusercontent.com/57879193/219876127-471edc86-e719-4830-8d77-8341c158e54b.png">
 
-<img width="404" alt="Screen Shot 2023-02-18 at 11 12 44 AM" src="https://user-images.githubusercontent.com/57879193/219876277-c03c53fe-87ed-4425-b567-ce44afe8bed2.png">
-<img width="404" alt="Screen Shot 2023-02-18 at 11 12 13 AM" src="https://user-images.githubusercontent.com/57879193/219876245-9e23c42e-307f-498e-baca-888b531ad0ee.png">
+<img width="404" alt="Screen Shot 2023-02-18 at 11 12 44 AM" src="https://user-images.githubusercontent.com/57879193/219876277-c03c53fe-87ed-4425-b567-ce44afe8bed2.png"> <img width="404" alt="Screen Shot 2023-02-18 at 11 12 13 AM" src="https://user-images.githubusercontent.com/57879193/219876245-9e23c42e-307f-498e-baca-888b531ad0ee.png">
 
 
 
