@@ -14,7 +14,7 @@ body {
   justify-content: center;
   padding: 0 10px;
   min-height: 100vh;
-  background: #1e3825;
+  background: #559591;
 }
 
 .container {
@@ -148,7 +148,7 @@ li,
   margin-top: 20px;
   font-size: 17px;
   border-radius: 5px;
-  background: #357e48;
+  background: #59aba7;
 }
 
 @media (max-width: 660px) {
