@@ -1,6 +1,6 @@
 # Translator App
 
-This is a web-based translator app built using vanilla JavaScript, HTML, and CSS. It allows you to translate text between a variety of languages using the MyMemory API.
+This is a web-based translator app built using vanilla JavaScript, HTML, and CSS. It allows you to translate text between a variety of languages using the MyMemory API. The app also includes audio pronunciations of words in the source and target languages to aid with language learning.
 
 # Fully Responsive, 50+ Languages Supported!
 <img width="1031" alt="Translator app screenshot" src="https://user-images.githubusercontent.com/57879193/219876127-471edc86-e719-4830-8d77-8341c158e54b.png">
@@ -37,3 +37,9 @@ The translator app currently supports translation between the following language
 ## Technologies Used
 
 - JavaScript (no frameworks used for practice), HTML, CSS, MyMemory API
+
+Note: The app includes audio pronunciations of words in the source and target languages to aid with language learning. To listen to the pronunciation of words, click on the speaker icon next to the text.
+
+:D
+
+
