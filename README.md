@@ -5,7 +5,7 @@ This is a web-based translator app built using vanilla JavaScript, HTML, and CSS
 ## Fully Responsive, 50+ Languages with dictations (text to speech) supported!
 <img width="1353" alt="Screen Shot 2023-04-11 at 6 39 58 PM" src="https://user-images.githubusercontent.com/57879193/231306391-97857d29-5c9f-40d8-b2c3-f456b9f49122.png">
 
-##Mobile Friendly
+## Mobile Friendly <br>
 <img width="469" alt="Screen Shot 2023-04-11 at 6 58 49 PM" src="https://user-images.githubusercontent.com/57879193/231306635-efb3c615-4699-4507-b755-e4212fa91b78.png">
 
 ## Usage
