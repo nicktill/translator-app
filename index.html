@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <!-- default meta tag for device info -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <link rel="stylesheet" href="./styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
+    <!-- add favicon -->
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
     <!-- Link to Animate.css stylesheet -->
     <link
       rel="stylesheet"
@@ -62,15 +66,5 @@
 
     <script src="js/countries.js"></script>
     <script src="js/script.js"></script>
-    <script>
-      // Get a reference to the translate button
-      const translateBtn = document.getElementById("translate-btn");
-
-      // Add an event listener to the translate button
-      translateBtn.addEventListener("click", () => {
-        // Add the animate__zoomIn class to the button
-        translateBtn.classList.add("animate__animated", "animate__zoomIn");
-      });
-    </script>
   </body>
 </html>
