@@ -3,21 +3,25 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="./styles.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="/favicon.png" />
-    <!-- Font Awesome CDN Link for Icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- Link to Animate.css stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <title>Translator</title>
   </head>
 
   <body>
-    <div class="container">
-      <h1 class="translator-title">Translator</h1>
-      <div class="wrapper">
-        <div class="text-input">
+    <div class="container animate__animated animate__fadeIn">
+      <h1 class="translator-title animate__animated animate__bounceInDown">
+        Translator
+      </h1>
+      <div class="wrapper animate__animated animate__fadeInUp">
+        <div class="text-input animate__animated animate__fadeInLeft">
           <textarea
             spellcheck="false"
             class="from-text"
@@ -31,7 +35,7 @@
             placeholder="Translation"
           ></textarea>
         </div>
-        <ul class="controls">
+        <ul class="controls animate__animated animate__fadeInRight">
           <li class="row from">
             <div class="icons">
               <i id="from" class="fas fa-volume-up"></i>
@@ -39,7 +43,9 @@
             </div>
             <select></select>
           </li>
-          <li class="exchange"><i class="fas fa-exchange-alt"></i></li>
+          <li class="exchange animate__animated animate__heartBeat">
+            <i class="fas fa-exchange-alt"></i>
+          </li>
           <li class="row to">
             <select></select>
             <div class="icons">
@@ -49,10 +55,22 @@
           </li>
         </ul>
       </div>
-      <button>Translate Text</button>
+      <button class="animate__animated animate__fadeInUp" id="translate-btn">
+        Translate Text
+      </button>
     </div>
 
     <script src="js/countries.js"></script>
     <script src="js/script.js"></script>
+    <script>
+      // Get a reference to the translate button
+      const translateBtn = document.getElementById("translate-btn");
+
+      // Add an event listener to the translate button
+      translateBtn.addEventListener("click", () => {
+        // Add the animate__zoomIn class to the button
+        translateBtn.classList.add("animate__animated", "animate__zoomIn");
+      });
+    </script>
   </body>
 </html>
